@@ -144,7 +144,6 @@ config.json
 api_keys.txt
 
 # IDE and editor files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -232,8 +231,6 @@ tmp/
 temp/
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
 .idea
 *.suo
 *.ntvs*
@@ -244,3 +241,6 @@ temp/
 # Local development
 .local/
 local/
+
+# Vector database
+db/
