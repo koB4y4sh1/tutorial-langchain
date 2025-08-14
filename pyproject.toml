@@ -25,4 +25,6 @@ dependencies = [
     "rank-bm25==0.2.2",
     "retry==0.9.2",
     "tavily-python==0.5.0",
+    "pysdb>=0.0.3",
+    "pysbd>=0.3.4",
 ]

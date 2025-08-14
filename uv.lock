@@ -91,7 +91,7 @@ wheels = [
 
 [[package]]
 name = "anthropic"
-version = "0.63.0"
+version = "0.64.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -102,9 +102,9 @@ dependencies = [
     { name = "sniffio" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/80/6e/3bedbd1c932cce98495e007b6d8007a139cf46adc5c889d700ec75ddd7f3/anthropic-0.63.0.tar.gz", hash = "sha256:d75ecfff17a0b96d845be3cbd93e06a48ea95aaa27add586748772fa5b926994", size = 427391, upload-time = "2025-08-12T16:59:58.079Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/4f/f2b880cba1a76f3acc7d5eb2ae217632eac1b8cef5ed3027493545c59eba/anthropic-0.64.0.tar.gz", hash = "sha256:3d496c91a63dff64f451b3e8e4b238a9640bf87b0c11d0b74ddc372ba5a3fe58", size = 427893, upload-time = "2025-08-13T17:09:49.915Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8c/a1/83bdb1a8be76fbb3ceedae9dfe1b515cff56dcfbbc388b53070a27ce341f/anthropic-0.63.0-py3-none-any.whl", hash = "sha256:d1849fe1635ae4277f45a0e4365979ed69e6264b73350ce8a99fee701d347745", size = 296637, upload-time = "2025-08-12T16:59:56.841Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/b2/2d268bcd5d6441df9dc0ebebc67107657edb8b0150d3fda1a5b81d1bec45/anthropic-0.64.0-py3-none-any.whl", hash = "sha256:6f5f7d913a6a95eb7f8e1bda4e75f76670e8acd8d4cd965e02e2a256b0429dd1", size = 297244, upload-time = "2025-08-13T17:09:47.908Z" },
 ]
 
 [[package]]
@@ -1963,6 +1963,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pysdb"
+version = "0.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/22/a2/3193a6ef77526deb74c4d4223c30a72abaf2328d75409916ac9b3b6451ca/pysdb-0.0.3.tar.gz", hash = "sha256:c842d07ac3e9891dc4f8b2e4de4b0a8cdb7f5f73b1a93fa1282c34a84d4908d1", size = 2847, upload-time = "2018-09-29T15:09:52.311Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/01/fc/7d45981a569de1e718c4214580ba603d3e553c768cfc69166250b2bf5d35/pysdb-0.0.3-py3-none-any.whl", hash = "sha256:4e6e5ebcfa6666994717466860f81cbbea6aa3a37378ba0f32e35f882f495f83", size = 2930, upload-time = "2018-09-29T15:09:50.89Z" },
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
@@ -2393,6 +2402,8 @@ dependencies = [
     { name = "numpy" },
     { name = "posthog" },
     { name = "pydantic" },
+    { name = "pysbd" },
+    { name = "pysdb" },
     { name = "python-dotenv" },
     { name = "ragas" },
     { name = "rank-bm25" },
@@ -2417,6 +2428,8 @@ requires-dist = [
     { name = "numpy", specifier = "==1.26.4" },
     { name = "posthog", specifier = ">=2.4.0,<6.0.0" },
     { name = "pydantic", specifier = "==2.10.6" },
+    { name = "pysbd", specifier = ">=0.3.4" },
+    { name = "pysdb", specifier = ">=0.0.3" },
     { name = "python-dotenv", specifier = "==1.0.1" },
     { name = "ragas", specifier = "==0.1.14" },
     { name = "rank-bm25", specifier = "==0.2.2" },
